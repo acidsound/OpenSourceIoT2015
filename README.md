@@ -9,9 +9,9 @@ WiFi Module인 ESP8266 실습
 * LED
 
 ## Reference
-http://esp8266.co.uk/
-http://nodemcu.com/index_en.html
-http://nodemcu.github.io/
+* http://esp8266.co.uk/
+* http://nodemcu.com/index_en.html
+* http://nodemcu.github.io/
 
 ## Schematic
 http://123d.circuits.io/circuits/604517-esp8266server-w-photosensor/view
