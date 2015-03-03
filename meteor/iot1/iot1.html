@@ -1,0 +1,23 @@
+<head>
+  <title>iot1</title>
+</head>
+
+<body>
+  <h1>DreamCatcher</h1>
+</body>
+
+<template name="main">
+  <ul>
+    {{#each message}}
+    <li>
+      <span>{{time}}</span>
+      <span>{{pin}}</span>
+      <span>{{status}}</span>
+    </li>
+    {{else}}
+    <li>
+      <span>No Data</span>
+    </li>
+    {{/each}}
+  </ul>
+</template>

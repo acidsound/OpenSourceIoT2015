@@ -1,0 +1,31 @@
+html, body {
+  height: 100%;
+}
+/*
+#header {
+  position: fixed;
+  top: 0;
+  z-index:2;
+  background: #bada55;
+  width: 100%;
+}
+*/
+
+#content {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  background-color:#00cdca;
+}
+
+#footer {
+  padding-top: 10px;
+  position: fixed;
+  bottom: 0;
+  height: 50px;
+  z-index: 2;
+  background: #dddddd;
+}
