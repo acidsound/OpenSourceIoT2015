@@ -1,0 +1,50 @@
+<head>
+  <title>iot2</title>
+</head>
+
+<body>
+  <header class="bg-dark dk header navbar navbar-fixed-top-xs" id="header">
+    <div class="navbar-header">
+      <a href="#" class="navbar-brand">
+        CatDoor Monitor
+      </a>
+    </div>
+  </header>
+</body>
+
+<template name="main">
+	<section>
+		<section class="hbox stretch">
+
+<section id="content">
+	<section class="vbox">
+		<section class="scrollable padder">
+<div class="row">
+  <div class="col-md-8">
+    <section class="panel panel-default">
+      <header class="panel-heading font-bold">
+        Slam Graph
+      </header>
+      <div class="panel-body">
+        
+        <div id="flot-1ine" style="height: 210px; padding: 0px; position: relative;">
+          <canvas class="flot-base" width="695" height="210" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 695px; height: 210px;">
+          </canvas>
+          <canvas class="flot-overlay" width="695" height="210" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 695px; height: 210px;">
+          </canvas>
+        </div>
+        {{#each slams}}{{/each}}
+      </div>
+      
+    </section>
+    
+  </div>
+  
+</div>
+
+</section>
+</section>
+</section>
+</section>
+</section>
+</template>

@@ -1,0 +1,8 @@
+#footer {
+  padding-top: 10px;
+  position: fixed;
+  bottom: 0;
+  height: 50px;
+  z-index: 2;
+  background: #dddddd;
+}

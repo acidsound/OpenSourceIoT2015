@@ -1,0 +1,1 @@
+Slams=new Meteor.Collection('slams');
