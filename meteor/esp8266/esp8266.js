@@ -21,6 +21,9 @@ if (Meteor.isClient) {
   });
 
   Template.main.events({
+    'click .message': function(e, tpl) {
+      tpl.find("input").value+=e.target.innerText;
+    },
     'submit': function(e, tpl) {
       e.preventDefault();
       Meteor.call('sendCommand', tpl.find("input").value);
